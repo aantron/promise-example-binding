@@ -8,7 +8,6 @@
     "@aantron/repromise": "github:aantron/repromise"
   },
   "scripts": {
-    "build": "bsb -make-world",
-    "test": "node lib/js/main.js"
+    "test": "bsb -make-world && node lib/js/main.js"
   }
 }
