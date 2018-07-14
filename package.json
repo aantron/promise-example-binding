@@ -5,7 +5,7 @@
   "dependencies": {
     "bs-platform": "^2.2.3",
     "node-fetch": "*",
-    "@aantron/repromise": "github:aantron/repromise"
+    "@aantron/repromise": "*"
   },
   "scripts": {
     "test": "bsb -make-world && node lib/js/main.js"
