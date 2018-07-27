@@ -16,5 +16,5 @@ let url =
 
 let () =
   fetch(url)
-  |> Repromise.then_(text)
+  |> Repromise.andThen(text)
   |> Repromise.wait(Js.log);
