@@ -4,7 +4,7 @@ Clone this repo:
 
 ```
 git clone https://github.com/aantron/repromise-example-binding.git
-cd repromise-example-bsb
+cd repromise-example-binding
 ```
 
 and do:
