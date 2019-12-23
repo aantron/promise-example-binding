@@ -1,11 +1,12 @@
 /* Really simple node-fetch binding. */
 type response;
 
+
 [@bs.module]
 external fetch: string => Promise.t(response) = "node-fetch";
 
 [@bs.send]
-external text: response => Promise.t(string) = "";
+external text: response => Promise.t(string) = "text";
 
 
 
