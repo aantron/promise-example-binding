@@ -1,6 +1,6 @@
 {
-  "name": "repromise-example-binding",
-  "bs-dependencies": ["@aantron/repromise"],
+  "name": "promise-example-binding",
+  "bs-dependencies": ["reason-promise"],
   "sources": ".",
   "refmt": 3
 }

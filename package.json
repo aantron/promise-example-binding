@@ -1,11 +1,11 @@
 {
-  "name": "repromise-example-binding",
+  "name": "promise-example-binding",
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
     "bs-platform": ">= 3.0.0",
     "node-fetch": "*",
-    "@aantron/repromise": ">= 0.6.0"
+    "reason-promise": "aantron/promise"
   },
   "scripts": {
     "test": "bsb -make-world && node lib/js/main.js"
