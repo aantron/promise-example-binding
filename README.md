@@ -14,7 +14,7 @@ npm install
 npm run test
 ```
 
-This will download the source code of this `README.md` using
+This will download the source code of the reason-promise `README.md` using
 [reason-promise][reason-promise] and [`node-fetch`][node-fetch], and print it.
 See [`main.re`][main] for the code.
 

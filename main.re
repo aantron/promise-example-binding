@@ -7,8 +7,8 @@
        .then(res => res.text())
        .then(body => console.log(body));
 
-   Except that we get this repo's README rather than the GitHub home page, and
-   we use ReasonML to do it :) */
+   Except that we get the reason-promise README rather than the GitHub home
+   page, and we use ReasonML to do it :) */
 
 
 
@@ -24,13 +24,9 @@ external text: response => Promise.t(string) = "text";
 
 
 
-/* User code: download this repo's README and print it. */
-
-let url =
-  "https://raw.githubusercontent.com/"
-  ++ "aantron/promise-example-binding/master/README.md";
+/* User code: download the reason-promise README and print it. */
 
 let () =
-  fetch(url)
+  fetch("https://raw.githubusercontent.com/aantron/promise/master/README.md")
   ->Promise.flatMap(response => text(response))
   ->Promise.get(body => Js.log(body));
