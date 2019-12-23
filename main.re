@@ -33,4 +33,4 @@ let url =
 let () =
   fetch(url)
   ->Promise.flatMap(response => text(response))
-  ->Promise.get(theText => Js.log(theText));
+  ->Promise.get(body => Js.log(body));
